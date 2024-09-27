@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teatro e Socialização - Projeto Escolar</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body class="light-theme">
+    <header>
+        <div class="container">
+            <h1>Teatro e Socialização - Feira de Ciências</h1>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre o Projeto</a></li>
+                    <li><a href="#participantes">Participantes</a></li>
+                    <li><a href="#beneficios">Benefícios</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                </ul>
+                <!-- Ícone de alternância de tema -->
+                <div class="theme-toggle">
+                    <span id="theme-icon" class="material-icons" style="cursor: pointer;">dark_mode</span>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <section id="sobre">
+            <div class="container">
+                <h2>Sobre o Projeto</h2>
+                <p>Este projeto é realizado por estudantes do 1º ano do ensino médio e tem como objetivo explorar como o teatro pode ajudar as pessoas a socializarem melhor. O teatro é uma ferramenta poderosa para desenvolver habilidades de comunicação, empatia e trabalho em equipe.</p>
+            </div>
+        </section>
+
+        <section id="participantes">
+            <div class="container">
+                <h2>Participantes</h2>
+                <div class="grid">
+                    <div class="card">Luiz</div>
+                    <div class="card">Gabriel</div>
+                    <div class="card">Samuel</div>
+                    <div class="card">Ariele</div>
+                    <div class="card">Lívia</div>
+                    <div class="card">Nathan</div>
+                    <div class="card">Igor</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="beneficios">
+            <div class="container">
+                <h2>Benefícios do Teatro</h2>
+                <p>O teatro oferece uma série de benefícios que podem melhorar a socialização e o desenvolvimento pessoal, incluindo:</p>
+                <ul>
+                    <li><strong>Desenvolvimento da comunicação:</strong> Melhora as habilidades de expressão verbal e corporal, permitindo que os alunos se comuniquem de forma mais clara e confiante.</li>
+                    <li><strong>Fortalecimento da empatia:</strong> Ao interpretar diferentes personagens e situações, os estudantes aprendem a entender e respeitar diversas perspectivas.</li>
+                    <li><strong>Criatividade e resolução de problemas:</strong> Estimula a imaginação e ajuda os alunos a pensarem de maneira inovadora para resolver desafios.</li>
+                    <li><strong>Autoconfiança:</strong> Participar de performances teatrais ajuda os alunos a vencerem a timidez e a aumentarem sua autoestima.</li>
+                    <li><strong>Trabalho em equipe:</strong> Promove a colaboração entre os participantes, desenvolvendo habilidades de trabalho em grupo e liderança.</li>
+                    <li><strong>Disciplina e foco:</strong> Ensaios e apresentações exigem compromisso, concentração e disciplina.</li>
+                    <li><strong>Desenvolvimento emocional:</strong> Ajuda os alunos a explorarem e expressarem suas emoções, contribuindo para a inteligência emocional.</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section id="testemunhos">
+            <h2>O que dizem sobre o Teatro</h2>
+            <div class="testemunho">
+                <blockquote>"O teatro me ajudou a me expressar melhor!" - <cite>Luiz</cite></blockquote>
+            </div>
+            <div class="testemunho">
+                <blockquote>"Participar do teatro me deixou mais confiante." - <cite>Gabriel</cite></blockquote>
+            </div>
+        </section>
+        
+
+        <section id="galeria">
+            <div class="container">
+                <h2>Galeria</h2>
+                <div class="gallery">
+                    <img src="./imgs/WhatsApp Image 2024-09-23 at 21.33.36 (1).jpeg" alt="Ensaio de teatro em sala" class="img-clickable">
+                    <img src="./imgs/WhatsApp Image 2024-09-23 at 21.33.36.jpeg" alt="Ensaio de teatro em sala" class="img-clickable">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Projeto Escolar - Teatro e Socialização</p>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="imgModal">
+        <div id="caption"></div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
